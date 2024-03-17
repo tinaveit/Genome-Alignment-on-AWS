@@ -1,5 +1,6 @@
-# Running Cactus on AWS Protocol
-By Martina Veit Acosta
+# Running Cactus on AWS Protocol 
+I have written this tutorial with the steps that worked for our lab to run Progressive Cactus on AWS after months 
+of error and trial and using other tutorials online as references. Hopefully it can help other people too! (Martina Veit Acosta)
 
 # Notes Before Starting
 1. Genomes must be soft masked (make sure to download the correct version from NCBI)
