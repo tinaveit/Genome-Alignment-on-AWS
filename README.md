@@ -89,6 +89,7 @@ The next step is to launch the instance. In our case this is the data specs that
 - leaderNodeType: t2.medium
 - Leader storage: 1000 GB
 - Node storage: 250 GB
+  
 Command to launch the instance:
 ```
 $ toil launch-cluster -z us-east-1a --keyPairName id_aws --leaderNodeType t2.medium
