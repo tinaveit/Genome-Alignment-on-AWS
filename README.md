@@ -90,9 +90,10 @@ The next step is to launch the instance. In our case this is the data specs that
 - Leader storage: 1000 GB
 - Node storage: 250 GB
 Command to launch the instance:
+```
 $ toil launch-cluster -z us-east-1a --keyPairName id_aws --leaderNodeType t2.medium
 --leaderStorage 1000 --nodeStorage 250 xtremodevolab-cactus
-
+```
 You can check if the instance was successfully created by going to the EC2 dashboard and
 looking up instances.Don’t forget to adjust the timezone in the console so that the instance is
 visible to you. *Note: make sure to stop the instance if not using it, but don’t terminate it.
